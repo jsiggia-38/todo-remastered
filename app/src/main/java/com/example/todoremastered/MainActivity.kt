@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun getDataFile() : File {
-        return File(filesDir, "data.txt")
+        return File(filesDir, "appdata.txt")
     }
 
     fun loadItems() {
